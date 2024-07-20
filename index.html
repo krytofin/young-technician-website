@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юный Техник</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="header__nav">
+                <h2 class="header__title">
+                    Юный Техник
+                </h2>
+
+                <ul class="header__nav_items">
+                    <li class="header__nav_item" id="head_product">Товары</li>
+                    <li class="header__nav_item" id="head_review">Отзывы</li>
+                    <li class="header__nav_item" id="head_help">Помощь</li>
+                    <li class="header__nav_item" id="head_contact">Контакты</li>
+                </ul>
+                <button class="header__button" id="header_button">Посмотреть предложения</button>
+            </nav>
+            <div class="header__img">
+                <img src="assets/images/header_photo.png" alt="header foto our products">
+            </div>
+        </header>
+        <div class="products" id="products">
+            <h1 class="products__title">Лучшие товары для Юного Техника</h1>
+            <p class="product_description">Широкий выбор современной техники</p>
+            <div class="products__container">
+                <div class="products__item">
+                    <img src="assets/images/smartphone.jpg" alt="Смартфон XY-300" class="product_img">
+                    <h2 class="product_title">Смартфон XY-300</h2>
+                    <p class="product_describtion">Безграничные возможности <br> в ваших руках</p>
+                    <div class="prices">
+                        <div class="new_price">18 990</div>
+                        <div class="old_price">23 990</div>
+                    </div>
+                    <button class="product_order_button">Заказать</button>
+                </div>
+                <div class="products__item">
+                    <img src="assets/images/big phone.jpg" alt="Смартфон XY-300" class="product_img">
+                    <h2 class="product_title">Планшет Atra Pro</h2>
+                    <p class="product_describtion">Настоящее мощное устройство <br> для работы и развлечений</p>
+                    <div class="prices">
+                        <div class="new_price">29 990</div>
+                        <div class="old_price">39 990</div>
+                    </div>
+                    <button class="product_order_button">Заказать</button>
+                </div>
+                <div class="products__item">
+                    <img src="assets/images/laptope.jpg" alt="Смартфон XY-300" class="product_img">
+                    <h2 class="product_title">Идеальный ноутбук</h2>
+                    <p class="product_describtion">Мощность и стиль в <br> каждой детали</p>
+                    <div class="prices">
+                        <div class="new_price">98 990</div>
+                        <div class="old_price">73 990</div>
+                    </div>
+                    <button class="product_order_button">Заказать</button>
+                </div>
+            </div>
+        </div>
+        <div class="client_review" id="client_review">
+            <h2 class="review">Отзывы покупателей</h2>
+            <img src="assets/images/review_logo.jpg" alt="logo" class="review_logo" id="client_logo">
+            <p class="reviewer_name" id="reviewer_name">Александра Лаптева</p>
+            <p class="reviwer_job" id="client_job">Секретарь</p>
+            <div class="carusel">
+                <div class="carusel_container">
+                    <div class="car_button" id="button_back"><img src="assets/images/arrow_left.png" alt="left arrow"></div>
+                    <q class="reviwer_review" id="client_comment">Я просто в восторге от своего нового телефона XY-300! Этот аппарат сочетает в себе стиль, функциональность и высокотехнологичные возможности, что делает его идеальным спутником.
+                        Дизайн телефона просто завораживает: тонкий и легкий корпус, изогнутый экран и стильная цветовая гамма – все это создает великолепный внешний вид. Аккумулятор держит заряд на протяжении всего дня, что особенно важно для активной девушки, всегда в движении.</q>
+                    <div class="car_button" id="button_forward"><img src="assets/images/arrow_right.png" alt="left right"></div>
+                </div>
+                <div class="carusel_buttons">
+                    <div class="first_review" id="identificator_1"></div>
+                    <div class="second_review" id="identificator_2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="form" id="form">
+            <h2 class="form__title">Остались вопросы?</h2>
+            <p class="form__text">Мы готовы Вам помочь</p>
+            <div class="form_wrapper">
+                <form action="#" method="get" class="main_form">
+                        <input type="text" placeholder="Ваше имя" name="name" id="name" class="form_input">
+                        <input type="email" name="email" id="email" placeholder="Ваш email" class="form_input"> 
+                        <input type="text" name="text" id="text" placeholder="Напишите, какие сложности возникли" class="form_input">
+                        <button type="submit" class="form_button">Отправить</button>
+                </form>
+            </div>
+        </div>
+        <div class="contacts" id="contacts">
+            <h2 class="contacts__title">Контакты</h2>
+            <p class="contacts__information">Мы рады видеть Вас в своем магазине</p>
+            <img class="map" src="assets/images/map.png" alt="map">
+        </div>
+
+        <footer>
+            <h2 class="footer__title">Юный Техник</h2>
+            <ul class="footer_navbar">
+                <li class="footer_navbar_item" id="footer_about">Товары</li>
+                <li class="footer_navbar_item" id="footer_new">Отзывы о компании</li>
+                <li class="footer_navbar_item" id="footer_help">Помощь</li>
+                <li class="footer_navbar_item" id="footer_contacts">Контакты</li>
+            </ul>
+
+            <ul class="footer_contacts">
+                <li class="footer_contact"><a href="tel:+7 (880) 555-55-55">+7 (880) 555-55-55</a></li>
+                <li class="footer_contact"><a href="mailto:youngtechnic@yt.ru">youngtechnic@yt.ru</a></li>
+            </ul>
+            <ul class="footer_logos">
+                <li class="footer_logo"><a href="#"><img src="assets/images/telega.svg" alt="telegram logo" class="footer_logo_img"></a></li>
+                <li class="footer_logo"><a href="mailto:youngtechnic@yt.ru"><img src="assets/images/mail.svg" alt="mail logo" class="footer_logo_img"></a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
